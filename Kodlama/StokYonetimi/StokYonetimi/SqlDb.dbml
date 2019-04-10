@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Cht_StokTakip" Class="SqlDb" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Cht_StokTakip;Integrated Security=True" SettingsObjectName="StokYonetimi.Properties.Settings" SettingsPropertyName="Cht_StokTakipConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MusteriAdresleri" Member="MusteriAdresleris">
+    <Type Name="MusteriAdresleri">
+      <Column Name="MusteriAdresKayitNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="MusteriAdresMusteriKodu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriAdresNo" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriAdresCadde" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriAdresSokak" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriAdresIlce" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriAdresIl" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriAdresTelefon" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StokFiyatlari" Member="StokFiyatlaris">
+    <Type Name="StokFiyatlari">
+      <Column Name="StokFiyatKayitNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="StokFiyatStokKodu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokFiyatNo" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokFiyatFiyati" Type="System.Double" DbType="Float" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StokGC" Member="StokGCs">
+    <Type Name="StokGC">
+      <Column Name="StokGCKayitNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="StokGCTipi" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCTarih" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCEvrakNo" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCSatirNo" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCMusteriKodu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCMusteriAdresNo" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCStokKodu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCStokFiyatNo" Type="System.Int32" DbType="Int" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCStokFiyati" Type="System.Double" DbType="Float" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCStokMiktari" Type="System.Double" DbType="Float" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCStokVergi" Type="System.Double" DbType="Float" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokGCStokTutar" Type="System.Double" DbType="Float" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Stoklar" Member="Stoklars">
+    <Type Name="Stoklar">
+      <Column Name="StokKayitNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="StokKodu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="StokAdi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="VergiOrani" Type="System.Double" DbType="Float" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Musteriler" Member="Musterilers">
+    <Type Name="Musteriler">
+      <Column Name="MusteriKayitNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="MusteriKodu" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="MusteriUnvani" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriYetkilisi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriVergiDairesi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="MusteriVergiNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+</Database>

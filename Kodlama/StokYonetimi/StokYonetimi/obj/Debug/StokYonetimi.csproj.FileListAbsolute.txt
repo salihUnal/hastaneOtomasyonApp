@@ -1,0 +1,15 @@
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\ResolveAssemblyReference.cache
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_Giris.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_Stoklar.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.Properties.Resources.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.csproj.GenerateResource.Cache
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\bin\Debug\StokYonetimi.exe.config
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\bin\Debug\StokYonetimi.exe
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\bin\Debug\StokYonetimi.pdb
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.exe
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.pdb
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_StokFiyatlari.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_Musteriler.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_MusteriAdresleri.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_Arama.resources
+D:\GAZI\201101\NesneYonelimliProgramlama\Proje\StokYonetimi\StokYonetimi\obj\Debug\StokYonetimi.frm_Evrak.resources

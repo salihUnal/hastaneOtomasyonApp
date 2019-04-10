@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SqlDb">
+  <DataContextMoniker Name="/SqlDb" />
+  <nestedChildShapes>
+    <classShape Id="3ef1691e-e4c3-4eba-af19-ff066eb37bb6" absoluteBounds="3, 2.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SqlDb/MusteriAdresleri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="73035ad5-150f-4daf-bb24-be4b8d82dd7c" absoluteBounds="3.0149999999999997, 2.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f88a73f1-1d8c-4fdc-940d-80c58c45a52f" absoluteBounds="3, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SqlDb/StokFiyatlari" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78b2c666-b654-4e39-a1ee-dec3bd2e98d9" absoluteBounds="3.0149999999999997, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1b43e55-d36c-4f9b-98a9-a321afc5643f" absoluteBounds="5.5, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/SqlDb/StokGC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f9db5da-33f6-40a7-ad59-7f6f2d2a0830" absoluteBounds="5.515, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fdb62c3d-3c29-4793-841d-2e15347582a2" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SqlDb/Stoklar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d21c6f06-702c-4e68-947c-0d215e672683" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95cb1a33-0bf5-4e2a-8d46-0a9e4f4fcc9c" absoluteBounds="0.5, 2.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SqlDb/Musteriler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdf23cb2-6842-48fe-90bd-4a96c766ae86" absoluteBounds="0.51500000000000012, 2.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

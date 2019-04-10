@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokYonetimi", "StokYonetimi\StokYonetimi.csproj", "{4F4CC289-7D73-4CC7-B69F-92F84A7B8D40}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Kurulum", "Kurulum\Kurulum.vdproj", "{5330AFE1-6BFA-400E-A931-4B5F02D56E9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F4CC289-7D73-4CC7-B69F-92F84A7B8D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4CC289-7D73-4CC7-B69F-92F84A7B8D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4CC289-7D73-4CC7-B69F-92F84A7B8D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4CC289-7D73-4CC7-B69F-92F84A7B8D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5330AFE1-6BFA-400E-A931-4B5F02D56E9A}.Debug|Any CPU.ActiveCfg = Debug
+		{5330AFE1-6BFA-400E-A931-4B5F02D56E9A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

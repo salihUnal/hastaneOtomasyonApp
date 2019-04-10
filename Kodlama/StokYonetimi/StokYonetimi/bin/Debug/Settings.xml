@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1254" standalone="no"?>
+<ConnSettings>
+  <Settings>
+    <Server>.</Server >
+    <DataBase>Cht_StokTakip</DataBase >
+    <User />
+    <Password />
+    <Security>1</Security >
+  </Settings>
+</ConnSettings>
